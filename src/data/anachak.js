@@ -3,7 +3,7 @@ import { create } from "framer-motion/client";
 export const anachakCate = [
   { name: "សាលមុន" },
   { name: "ធូណា" },
-  { name: "នីសុីន" },
+  { name: "នីស៊ីន" },
   { name: "លាយ" },
   { name: "បន្លែ" },
   { name: "ទឺកជ្រលក់" },
