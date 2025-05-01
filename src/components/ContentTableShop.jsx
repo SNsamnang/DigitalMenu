@@ -107,6 +107,9 @@ const ContentTableShop = ({ shops }) => {
       window.location.reload();
     }
   };
+  const goshop = () => {
+    navigate("/menu"); // Navigate to add shop page
+  }
 
   return (
     <div className="w-full border-t-[1px] border-white">
@@ -150,6 +153,7 @@ const ContentTableShop = ({ shops }) => {
           <div
             key={shop.id}
             className="w-full h-12 bg-slate-200 flex items-center px-2 mb-[1px]"
+            onClick={() => goshop()}
           >
             <p className="text-gray-600 w-[5%] text-center text-ellipsis">
               {index + 1}
